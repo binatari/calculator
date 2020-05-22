@@ -1,0 +1,108 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'geooblique';
+	font-size: 25px;
+}
+
+@font-face {
+    font-family: 'geooblique';
+    src: url('geo_oblique-webfont.woff2') format('woff2'),
+         url('geo_oblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.container {
+	margin:  100px auto;
+	width: 400px;
+	height: 500px;
+	border-radius: 15px 50px 30px 5px;
+	box-shadow: 10px 10px 5px grey;
+	border: 1px solid grey;
+}
+
+.input {
+	height: 28%;
+	margin: 0;
+	border-radius: 15px 0px;
+}
+.first {
+	width: 90%;
+
+}
+.second {
+	position: relative;
+	top: 10px;
+	left: 120px;
+	text-align: right;
+}
+.third {
+	position: relative;
+	top: 20px;
+    width: 90%;
+	}
+
+.fourth {
+	width: 80px;
+	position: relative;
+	left: 10px;
+	bottom: 72px;
+	text-align: center;
+}
+ .camper {
+ 	height: 30%;
+ 	width: 100%;
+ 	border-top: none;
+ 	border-right: none;
+ 	border-left: none;
+    border-bottom: 1px inset;
+    background-color: white;
+    border-radius: 15px 50px 0 0;
+ }
+.write-box ul {
+	height: 70%;
+	width: 80%;
+}
+.write-box li {
+	list-style-type: none;
+	width: 33.3%;
+	float: left;
+	padding: 29px;
+	display: block;
+	cursor: pointer;
+	-webkit-transition: transform 0.2s ease-in-out;
+	background-color:#ffffff;
+}
+
+
+.write-box li h3 {
+	text-align: center;
+}
+.write-box li:hover {
+	-webkit-transform: translate(1em, 0.5em);
+     box-shadow: 5px 5px 10px 5px grey;
+}
+.write-box li:active {
+	transform: translateY(4px);
+}
+
+.right-box ul {
+	width: 20%;
+	height: 70%;
+	float: right;
+}
+
+.right-box li{ 
+	list-style-type: none;
+	padding: 22px;
+	display: block;
+	cursor: pointer;
+    text-align: center;
+    -webkit-transition: background-color 0.4s ease-in-out;
+}
+.right-box li:hover {
+    background-color: #f2f2f2;
+}
